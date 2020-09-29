@@ -96,10 +96,6 @@ export default () => {
 
     render() {
       return layers.render().el;
-    },
-
-    destroy() {
-      return layers.remove();
     }
   };
 };
